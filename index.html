@@ -23,7 +23,7 @@
     <title>Bootstrap</title>
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="container">
       <h1>Hello World!</h1>
       <div class="row">
         <div class="col-md-1">1</div>
@@ -101,6 +101,30 @@
       <div class="row">
         <div class="col-md-4">
           4
+        </div>
+      </div>
+    </div> -->
+    <div class="container-fluid">
+      <!--hidden-xs hides when screen is at xs breakpoint  -->
+      <div class="row hidden-xs">
+        <!--at large 12 cols, at tablet 8, at small 6 cols  -->
+        <div class="col-lg-4 col-md-6">
+          Demo 1
+        </div>
+        <div class="col-lg-4 col-md-6">
+          Demo 2
+        </div>
+        <div class="col-lg-4 col-md-6">
+          Demo 3
+        </div>
+      </div>
+      <!--visible class, allows the html below to be seen only during xs  -->
+      <div class="row visible-xs">
+        <div class="col-xs-6">
+          Visible 1
+        </div>
+        <div class="col-xs-6">
+          visible 2
         </div>
       </div>
     </div>
